@@ -6,7 +6,7 @@ The website
 
 
 
-###clone the REPO
+### clone the REPO
 
 
      git clone https://github.com/zrncsinc/zrncsinc.github.io
