@@ -1,33 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>ZRNCS Inc.</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZRNCS</title>
+    <link rel="stylesheet" text="type/css" href="vendors/css/Grid.css">
+    <link rel="stylesheet" text="type/css" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" text="type/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" text="type/css" href="resources/css/Glyphter.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" text="type/css" href="resources/css/style.css">
 </head>
+
+
 <body>
+    <!-- --------------------------------------------------------------------- HEADER  -->
     <header>
-        <div class="main">
-            <ul>
-            	<li><a href="dist/index.html">BLOG
-                    <img src="docs/activities.svg" id="ZS" style="height: 14px; width: auto;">
-                </a></li>
-                <li><a href="#">
-                    <img src="docs/activities.svg" id="ZS" style="height: 14px; width: auto;">
-                </a></li>
-                <li><a href="#">Gallery
-                    <img src="docs/gallery.jpg" id="ZS" style="height: 14px; width: auto;">
-                </a></li>
-                <li><a href="#">Buy-Online
-                    <img src="docs/online_store.jpg" id="ZS" style="height: 24px; width: auto;">
-                </a></li>
-                <li><a href="#">about us</a></li>
-                <li><a href="#">But why?</a></li>
-            </ul>
-        </div>
-        <div class="main_button">
-            <img src="docs/logo.png" alt="">
+        <!-- ------------------------------------------------------- Nav bar  -->
+        <nav>
+            <div class="row">
+                <img src="resources/img/ZS.svg" alt="ZRNCS logo" class='logo'>
+
+                <ul class='nav-bar'>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blogs</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- ------------------------------------------------------- hero text  -->
+        <div class="row">
+            <div class="hero-text">
+                <H1>
+                    Robot prototyping made easy.
+                </H1>
+                <a href="#" class="btn-full">But how?</a>
+            </div>
         </div>
     </header>
-    
+
+    <!-- ------------------------------------------------------------------ protobot  -->
+    <section class="protobot">
+        <!-- ------------------------------------------------------ Photo  -->
+        <div class="row">
+            <div class="col span-2-of-3">
+                <img src="resources/img/protobot.png" alt="protobot" class='proto-img'>  
+            </div>
+            
+            <div class="col span-1-of-3" style="padding-top: 125px;">
+                <h2>Protobot</h2>
+                <p class='short-copy'>
+                    Stop building. Start testing.
+                </p> 
+            </div>         
+        </div>
+
+        <!-- ------------------------------------------------------ feature -->
+        <div class='row'>
+            <!-- -------------------------------------------- feature: robust  -->
+            <div class='col span-1-of-2 box'>
+                <i class='ion-ios-pulse-strong icon-big'></i>
+                <h3>Robust</h3>
+                <p>The aluminium chassis is lightweight but tough enough to survive off-road conditions</p>
+            </div>
+
+            <!-- -------------------------------------------- feature: robust  -->
+            <div class='col span-1-of-2 box'>
+                <i class="ion-ios-redo icon-big"></i>
+                <h3>Plug & Play</h3>
+                <p>The multiple electronic ports and fixture along with ROS interface allows quick and easy plug & play operation</p>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
